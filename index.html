@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw something!</title>
+    <link href="./styles.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Draw something!</h1>
+        <p>Select the grid size, and then draw by pressing the mouse.</p>
+    </div>
+
+    
+    <div class="buttons">
+        <button id="clear">Clear</button>
+        <button id="color-button">Enable Color</button>
+        <div class="erase-checkbox">
+            <input type="checkbox" id="erase">
+            <label for="erase">Enable erasing</label>
+        </div>
+    </div>
+
+
+    <div class="container">
+    </div>
+
+
+
+    <div class="sliderAndValue">
+            <input type="range" min="2" max="50" value="32" id="slider">
+            <p>Grid size: </p>
+            <p class="value">32</p>
+    </div>
+
+</body>
+</html>
